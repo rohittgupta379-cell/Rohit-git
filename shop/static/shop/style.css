@@ -1,0 +1,48 @@
+/* Full Page Background */
+body {
+  background: linear-gradient(135deg, #e0f7fa, #fdf0f0);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Section Background */
+.container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Image */
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Button */
+.btn-primary {
+  background: linear-gradient(45deg, #1e3a8a, #10b981);
+  border: none;
+  border-radius: 25px;
+  padding: 8px 18px;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #10b981, #1e3a8a);
+}
